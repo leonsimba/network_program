@@ -1,4 +1,4 @@
-SUBDIRS=lib tcp
+SUBDIRS=daytime echo
 
 all: 
 	for i in $(SUBDIRS); do \
