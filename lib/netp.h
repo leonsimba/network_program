@@ -57,4 +57,8 @@ void err_quit(const char *, ...);
 void err_ret(const char *, ...);
 void err_sys(const char *, ...);
 
+// signal handle
+typedef void (*sa_handler_t)(int);
+int register_signal_handler(int, sa_handler_t);
+
 #endif	/* __netp_h */

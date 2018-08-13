@@ -1,5 +1,5 @@
 PACKAGE_VERSION=1.0
-OBJ=error.o readline.o wrap_stdio.o writen.o
+OBJ=error.o readline.o wrap_stdio.o writen.o signal.o
 DEFINES += -D_GNU_SOURCE
 CFLAGS = -g -fPIC
 CFLAGS += -Wall -Wstrict-prototypes  -Wmissing-prototypes
